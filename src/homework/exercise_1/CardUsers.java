@@ -1,6 +1,6 @@
 package homework.exercise_1;
 
-public class cardUsers {
+public class CardUsers {
     public static void main(String[] args) {
         CreditCard myCart1 = new CreditCard(1, 2645.54);
         CreditCard myCart2 = new CreditCard(2, 1023.98);

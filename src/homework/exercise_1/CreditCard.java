@@ -18,7 +18,6 @@ public class CreditCard {
     public void balanceInfo (){
         System.out.println("Your balance: " + amountAccount);
     }
-
     public CreditCard (int accountNumber2, double amountAccount2){
         accountNumber = accountNumber2;
         amountAccount = amountAccount2;

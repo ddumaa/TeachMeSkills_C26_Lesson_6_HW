@@ -3,6 +3,10 @@ package homework;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * Повернуть массив из n элементов вправо на k шагов.
+ * Например, с n = 7 и k = 3 массив [1,2,3,4,5,6,7] вращается до [5,6,7,1,2,3,4].
+ */
 public class AdditionalTask_4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

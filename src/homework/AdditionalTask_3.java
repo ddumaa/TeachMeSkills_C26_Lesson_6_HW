@@ -3,12 +3,11 @@ package homework;
 import java.util.Scanner;
 
 public class AdditionalTask_3 {
-    public static double bank(double a, int years){
+    public static void bank(double a, int years){
         for (int i = 0; i <= years; i++) {
             a += a * 10.0/100;
         }
         System.out.println("Your contribution for " + years + " years, will be: " + a);
-        return a;
     }
 
     public static void main(String[] args) {

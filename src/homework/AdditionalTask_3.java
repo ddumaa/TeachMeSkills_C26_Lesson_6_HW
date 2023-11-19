@@ -17,6 +17,6 @@ public class AdditionalTask_3 {
         double a = scanner.nextDouble();
         System.out.println("For how long?");
         int years = scanner.nextInt();
-        double myDeposit = bank(a, years);
+        bank(a, years);
     }
 }

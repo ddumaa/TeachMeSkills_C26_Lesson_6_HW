@@ -8,7 +8,7 @@ package homework.exercise_2;
  * Поместить все эти обеъекты в массив.
  * Пройти по массиву циклом for-each и вывести информацию на консоль.
  */
-public class InfoMyClassromm {
+public class InfoMyClassroom {
     public static void main(String[] args) {
         MyClassroom person1 = new MyClassroom("Andrey", "Divin", "AB5657987BB7", "c26");
         MyClassroom person2 = new MyClassroom("Olya", "Neronena", "AB4386557BB1", "c26");
